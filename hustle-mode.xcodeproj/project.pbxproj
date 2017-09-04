@@ -12,6 +12,7 @@
 		98E7D2051F5D2B6D00D28180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E7D2031F5D2B6D00D28180 /* Main.storyboard */; };
 		98E7D2071F5D2B6D00D28180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E7D2061F5D2B6D00D28180 /* Assets.xcassets */; };
 		98E7D20A1F5D2B6D00D28180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E7D2081F5D2B6D00D28180 /* LaunchScreen.storyboard */; };
+		98E7D2141F5D347200D28180 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98E7D2131F5D347100D28180 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		98E7D2061F5D2B6D00D28180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98E7D2091F5D2B6D00D28180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98E7D20B1F5D2B6D00D28180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E7D2131F5D347100D28180 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		98E7D1FE1F5D2B6D00D28180 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				98E7D2131F5D347100D28180 /* hustle-on.wav */,
 				98E7D1FF1F5D2B6D00D28180 /* AppDelegate.swift */,
 				98E7D2011F5D2B6D00D28180 /* ViewController.swift */,
 				98E7D2031F5D2B6D00D28180 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E7D2141F5D347200D28180 /* hustle-on.wav in Resources */,
 				98E7D20A1F5D2B6D00D28180 /* LaunchScreen.storyboard in Resources */,
 				98E7D2071F5D2B6D00D28180 /* Assets.xcassets in Resources */,
 				98E7D2051F5D2B6D00D28180 /* Main.storyboard in Resources */,
@@ -278,7 +282,7 @@
 				DEVELOPMENT_TEAM = DSX523G48J;
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.inlookApp.hustle-mode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstApp.hustle-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +297,7 @@
 				DEVELOPMENT_TEAM = DSX523G48J;
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.inlookApp.hustle-mode";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firstApp.hustle-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
